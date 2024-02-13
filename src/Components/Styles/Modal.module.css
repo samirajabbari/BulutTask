@@ -1,0 +1,338 @@
+.container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #19191966;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addselect {
+  position: relative;
+  padding: 1rem 1rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.addToDo {
+  width: 508px;
+  height: 606px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 162px;
+  left: 449px;
+  padding: 16px, 24px, 16px, 24px;
+  border-radius: 4px;
+  /* gap: 32px; */
+  background-color: #ffffff;
+}
+
+.title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 32px;
+  padding: 0px, 24px, 0px, 24px;
+  /* gap: 16px; */
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #6941c6;
+}
+.label {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  padding: 0 5px;
+  color: var(--label-color);
+  background-color: var(--secound-background-Color);
+  font-size: 12px;
+  top: 9px;
+  /* bottom: 0; */
+  left: 23px;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+}
+.select {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 0.2rem;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 100%;
+  height: 56px;
+  /* top: 32px;
+    left: 215px; */
+  border-radius: 4px;
+  border: 1px solid var(--font-color);
+}
+.select input {
+  border: none;
+  background-color: white;
+  width: 80%;
+  height: 30px;
+  border-radius: 4px 0px 0px 4px;
+  /* padding: 0px 1rem; */
+  outline: none;
+}
+.select span {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 13px;
+  width: 5%;
+  height: 30px;
+  border-radius: 0px 4px 4px 0px;
+  border: none;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+}
+.select img {
+  width: 30px;
+  height: 30px;
+}
+.select img:hover {
+  border-radius: 15px;
+  background-color: var(--secound-background-Color);
+  z-index: 0;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 40px;
+  background-color: var(--checkbox-background);
+  border-radius: 4px;
+  margin: 2px 0rem;
+}
+
+.addPerson {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 0.2rem;
+  align-items: center;
+
+  width: 100%;
+  height: 56px;
+  border: 1px solid var(--font-color);
+}
+.result {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  overflow: auto;
+}
+.selectTodos {
+  display: flex;
+  width: fit-content;
+  height: 2rem;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  background-color: var(--secound-background-Color);
+}
+
+.customdiv {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: 2rem;
+  padding: 0 0.3rem;
+  flex-direction: row;
+  background-color: var(--secound-background-Color);
+  border-radius: 1rem;
+  margin: 0.2rem;
+}
+
+.customdivimage {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.customdivtext {
+  padding: 0px;
+
+  font-size: 12px;
+  margin-right: 10px;
+}
+
+.customdivshape {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+}
+
+.select img {
+  width: 30px;
+  height: 30px;
+}
+.selectBox {
+  width: 100%;
+  height: 56px;
+}
+.personbox {
+  display: flex;
+  /* overflow-y: hidden; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 1rem 0; */
+  width: 100%;
+  height: 264px;
+
+  background-color: var(--font-white-color);
+  border-radius: 4px;
+  border: 1px solid var(--font-color);
+}
+/* .listItems {
+  overflow-y: scroll;
+} */
+.personlist {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--secound-background-Color);
+  border-radius: 4px;
+  margin-bottom: 0.2rem;
+}
+
+.personlist img {
+  width: 20px;
+  height: 20px;
+  margin: 0px 0.5rem;
+}
+.addperson {
+  position: relative;
+  width: 90%;
+}
+.personlabel {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  padding: 0 5px;
+  color: var(--label-color);
+  background-color: var(--secound-background-Color);
+  font-size: 12px;
+  top: -7px;
+  /* bottom: 0; */
+  left: 8px;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.3rem;
+  align-items: center;
+
+  width: 98%;
+  height: 30px;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--font-color);
+}
+.search input {
+  border: none;
+  background-color: white;
+  width: 80%;
+  height: 30px;
+  border-radius: 0px 4px 4px 0px;
+  padding: 0px 1rem;
+  outline: none;
+}
+.search span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9%;
+  height: 30px;
+  border-radius: 4px 0px 0px 4px;
+  border: none;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+}
+.top {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+.counter {
+  bottom: 1px;
+}
+
+.counter {
+  width: 88%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.count {
+  font-size: 12px;
+}
+.clear {
+  font-size: 12px;
+  color: #1570ef;
+  cursor: pointer;
+}
+.buttonBox {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 3rem;
+}
+.cancelBtn {
+  width: 93px;
+  height: 40px;
+  border: 1px solid transparent;
+  margin-right: 1rem;
+  color: var(--buttom-color);
+}
+.AcceptBtn {
+  width: 93px;
+  height: 40px;
+  border: none;
+  background-color: var(--buttom-color);
+  color: white;
+}
+.AcceptBtn:hover {
+  background-color: var(--buttom-Hover);
+}
+.cancelBtn:hover {
+  border: 1px solid var(--buttom-color);
+}

@@ -1,0 +1,11 @@
+.addToDo {
+
+  width: 508px;
+  height: 606px;
+  top: 162px;
+  left: 449px;
+  padding: 16px, 24px, 16px, 24px;
+  border-radius: 4px;
+  gap: 32px;
+  background-color: #ffffff;
+}

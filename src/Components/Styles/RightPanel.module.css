@@ -1,0 +1,243 @@
+@import "../../Utility/Color.css";
+.container {
+  display: flex;
+  width: 95%;
+  height: 883px;
+  /* left: 1099px; */
+  /* position: fixed; */
+  top: 0px;
+  margin-left: 1rem;
+  padding: 24px, 16px, 24px, 16px;
+  border-radius: 32px;
+  gap: 24px;
+  background-color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.profile {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem 0px;
+}
+.fotrmationStatus {
+  width: 78%;
+  height: 276px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solidlinear-gradient(0deg, #eaecf0, #eaecf0),
+    linear-gradient(0deg, #ffffff, #ffffff);
+  border-radius: 24px;
+  gap: 20px;
+  padding: 12px 24px;
+  box-shadow: 0px 1px 2px 0px #1018280f;
+  box-shadow: 0px 1px 3px 0px #1018281a;
+  /* background: linear-gradient(0deg, #eaecf0, #eaecf0),
+    linear-gradient(0deg, #ffffff, #ffffff); */
+}
+.title {
+  width: 95%;
+  font-family: "Josefin Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+}
+.caption {
+  width: 95%;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+}
+progress {
+  width: 95%;
+  height: 20px;
+  border-radius: 16px;
+}
+progress::-webkit-progress-bar {
+  background-color: #d0d5dd;
+  border-radius: 16px;
+}
+progress::-webkit-progress-value {
+  background: var(--buttom-color);
+
+  border-radius: 16px;
+}
+
+.Estimat {
+  width: 95%;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+}
+.days {
+  width: 95%;
+  margin: 0px;
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #667085;
+}
+.statusBtn {
+  width: 95%;
+  height: 42px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  gap: 8px;
+  background-color: var(--buttom-color);
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  transition: background-color 0.5s ease;
+}
+.statusBtn:hover {
+  background-color: var(--buttom-Hover);
+}
+.toDoList {
+  width: 95%;
+  height: 487px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--font-color);
+  margin: 0px;
+  margin-bottom: 1rem;
+}
+.itemList {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.items {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* justify-content: center;  */
+  margin: 0.5rem 0px;
+}
+.itemImage {
+  height: 40px;
+  width: 40px;
+  border-radius: 16px;
+  background-color: #f9f5ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+.itemImage img {
+  height: 24px;
+  width: 24px;
+}
+.items p {
+  margin: 0px;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.items span {
+  font-family: "Josefin Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #98a2b3;
+}
+.addTodo {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: center;  */
+  margin: 0.5rem 0px;
+}
+.addTodo p {
+  margin: 0px;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.footer .pTag {
+  margin: 0px;
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.footer span {
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #98a2b3;
+  line-height: 1.5rem;
+}
+.addTodoimage {
+  height: 40px;
+  width: 40px;
+  border-radius: 16px;
+  background-color: #e9d7fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.addTodoimage img {
+  height: 24px;
+  width: 24px;
+}

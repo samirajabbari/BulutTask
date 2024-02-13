@@ -1,0 +1,96 @@
+@import "../../Utility/Color.css";
+
+.container {
+  position: relative; /* baraye menu */
+  width: fit-content;
+  height: fit-content;
+}
+.miniMenu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90px;
+  height: 1024px;
+  /* overflow: hidden; */
+  background-color: var(--primary_Blue_Color);
+  transition: width 0.3s ease;
+}
+.maxMenu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 185px;
+  height: 1024px;
+  /* overflow: hidden; */
+  background-color: var(--primary_Blue_Color);
+  transition: width 0.3s;
+}
+.menutitle {
+  color: var(--font-white-color);
+  margin-top: 32px;
+  font-weight: 600;
+}
+.toggelButton {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  color: var(--black-Font-color);
+  border-radius: 68px;
+  top: 4.5rem;
+  right: -16px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+
+  /* gap: 8px; */
+}
+.panelList {
+  margin-top: 4rem;
+  width: 100%;
+}
+.image {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  /* margin-left: 1.5rem; */
+}
+
+.setting {
+  position: absolute;
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: row;
+  top: 900px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  color: var(--font-white-color);
+  bottom: 24rem;
+  color: var(--font-white-color);
+  border-left: 3px solid transparent;
+}
+.image {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  /* margin-left: 1.5rem; */
+}
+.caption {
+  width: 60%;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+}
+.caption span {
+  text-align: center;
+}

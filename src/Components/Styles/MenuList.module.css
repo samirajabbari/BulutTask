@@ -1,0 +1,50 @@
+@import "../../Utility/Color.css";
+.ListBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.ListBox .title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  color: var(--font-white-color);
+  border-left: 3px solid transparent;
+  border-radius: 1px;
+  flex-grow: 1;
+}
+.menuActive {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  color: var(--font-white-color);
+  flex-grow: 1;
+  border-left: 3px solid var(--font-white-color);
+  border-radius: 1px;
+}
+.image {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  /* margin-left: 1.5rem; */
+}
+.caption {
+  width: 60%;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+}
+.caption span {
+  text-align: center;
+}
+.selected {
+  border-bottom: 2px solid var(--font-white-color);
+}

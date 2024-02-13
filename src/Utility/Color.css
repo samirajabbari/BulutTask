@@ -1,0 +1,22 @@
+:root {
+  --primary_Blue_Color: #6941c6;
+  --primary-lightBlue-Color: #b692f6;
+  --primary-darkBlue-Color: #42307d;
+
+  --secound-background-Color: #f4ebff;
+  --secound-light-color: #d6bbfb;
+  --secound-dark-color: #42307d;
+
+  --font-color: #101828;
+  --black-Font-color: #000000;
+  --font-white-color: white;
+
+  --buttom-color: #6941c6;
+  --buttom-Hover: #7c59cf;
+
+  --checkbox-background: #f9f5ff;
+  --checkbox-Hover: #ede5f8;
+  --checke-Hover: #dccfee;
+  --label-color: #475467;
+  --border-Hover: #6941c6;
+}

@@ -1,0 +1,70 @@
+@import "../../Utility/Color.css";
+.EmailList {
+  width: 100%;
+  height: 390px;
+  margin-top: 1rem;
+}
+.title {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--font-color);
+}
+.list {
+  width: 100%;
+  height: 100%;
+  overflow-y: unset;
+}
+.record {
+  width: 99%;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  background-color: var(--font-white-color);
+  /* padding: 0px 1rem; */
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  /* gap: 83px; */
+  box-shadow: 0px 2px 4px 0px #0000000f inset;
+  border: 1px solid transparent;
+  transition: border 0.5s ease;
+}
+.record:hover {
+  border: 1px solid var(--border-Hover);
+}
+.record p {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.image {
+  width: 40px;
+  height: 40px;
+  margin-right: 4rem;
+  padding-left: 1rem;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--buttom-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secound-dark-color);
+}
